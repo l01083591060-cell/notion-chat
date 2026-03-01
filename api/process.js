@@ -1,3 +1,3 @@
 export default function handler(req, res) {
-  res.json({ ok: true });
+  res.status(200).send("OK");
 }
